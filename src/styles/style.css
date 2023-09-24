@@ -1,0 +1,197 @@
+/* CUSTOM-PROPS */
+:root {
+  --black: #000;
+  --white: #fff;
+
+  /* PRIMARY-COLORS */
+  --purple: #4d44b5;
+  --orange: #fb7d5b;
+  --yellow: #fcc43e;
+
+  /* TEXT-COLOR  */
+  --text-color: #303972;
+
+  /* TRANSPARENT-COLOR */
+  --purple-transparent: #4d44b51a;
+
+  /* SECODRY-COLORS */
+  --green: #4cbc9a;
+  --red: #c41f28;
+  --gray1: linear-gradient(0deg, #f5f5f5, #f5f5f5),
+    linear-gradient(0deg, #000000, #000000);
+  --gray2: #c1bbeb;
+  --gray3: #a098ae;
+
+  /* GRADIENTS */
+  --linear-gradient-1: linear-gradient(
+    180deg,
+    #fb7d5b -242.86%,
+    rgba(251, 125, 91, 0) 100%
+  );
+  --linear-gradient-2: linear-gradient(
+    180deg,
+    #fcc43e -241.95%,
+    rgba(252, 196, 62, 0) 100%
+  );
+  --linear-gradient-3: linear-gradient(
+    178.76deg,
+    rgba(196, 222, 234, 0) -47.98%,
+    #303972 163.51%
+  );
+
+  /* SHADOWS */
+  --shadow-5: 0 20px 50px 0 rgba(191, 21, 108, 0.05);
+  --shadow-14: 0 7px 16px 0 rgba(0, 0, 0, 0.14);
+
+  /* FONTS  */
+  --poppins: "Poppins", "Arial", sans-serif;
+  --dm-sans: "DM Sans", "Arial", sans-serif;
+  --inter: "Inter", "Arial", sans-serif;
+  --abhaya: "Abhaya Libre", "Arial", sans-serif;
+
+  /* TITLES */
+  --title-48: 4.8rem;
+  --title-40: 4rem;
+  --title-36: 3.6rem;
+  --title-24: 2.4rem;
+  --title-18: 1.8rem;
+  --title-14: 1.4rem;
+
+  /* TEXTS  */
+  --text-18: 1.8rem;
+  --text-14: 1.4rem;
+
+  /* WEIGHTS */
+  --semi-bold: 600;
+  --medium: 500;
+  --regular: 400;
+}
+
+/* FONT-FACE  */
+@font-face {
+  font-family: "DM Sans";
+  src: url("../fonts/DMSans-Regular.woff2") format("woff2"),
+    url("../fonts/DMSans-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("../fonts/../fonts/Poppins-Regular.woff2") format("woff2"),
+    url("../fonts/../fonts/Poppins-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("../fonts/../fonts/Poppins-SemiBold.woff2") format("woff2"),
+    url("../fonts/../fonts/Poppins-SemiBold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("../fonts/Inter-Medium.woff2") format("woff2"),
+    url("../fonts/Inter-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("../fonts/../fonts/Poppins-Bold.woff2") format("woff2"),
+    url("../fonts/../fonts/Poppins-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("../fonts/../fonts/Poppins-Medium.woff2") format("woff2"),
+    url("../fonts/../fonts/Poppins-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Abhaya Libre";
+  src: url("../fonts/AbhayaLibre-Bold.woff2") format("woff2"),
+    url("../fonts/AbhayaLibre-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* GLOBAL-STYLES  */
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+  height: 100%;
+  scroll-behavior: smooth;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  background-color: var(--white);
+  color: var(--black);
+  font-family: var(--poppins);
+  font-size: var(--text-18);
+  line-height: normal;
+  padding: 0;
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* FOCUS-STYLES  */
+*:focus {
+  outline: 0.3rem dashed var(--purple);
+  outline-offset: 0.3rem;
+}
+
+/* CONTAINER  */
+.container {
+  max-width: 120rem;
+  width: 100%;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* VISUALLY-HIDDEN  */
+.visually-hidden {
+  position: absolute;
+  width: 0.1rem;
+  height: 0.1rem;
+  margin: -0.1rem;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+/* MAIN-CONTENT  */
+.main-content {
+  flex-grow: 1;
+}
