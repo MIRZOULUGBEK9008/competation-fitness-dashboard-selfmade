@@ -1,7 +1,11 @@
-import React from "react";
-import "./Chat.css";
-const Chat = () => {
-  return <></>;
-};
+import React from 'react'
 
-export default Chat;
+const Goods = () => {
+  return (
+    <div>
+      <h1>Mahsulotlar</h1>
+    </div>
+  )
+}
+
+export default Goods

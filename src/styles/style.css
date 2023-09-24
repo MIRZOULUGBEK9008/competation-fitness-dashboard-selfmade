@@ -195,3 +195,14 @@ img {
 .main-content {
   flex-grow: 1;
 }
+
+
+.partoverall{
+  display: flex;
+  
+}
+
+a{
+  color: white;
+  text-decoration: none;
+}

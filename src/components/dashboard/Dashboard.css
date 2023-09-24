@@ -1,9 +1,13 @@
 .sidebar_overall{
-    display: flex;
+  display: flex;
     
 }
 .sidebar{
-    width: 20%;
+   
+   top: 0px;
+   left: 0px;
+  
+
     min-height: 740px;
     text-align: center;
     background-color: 
