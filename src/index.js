@@ -4,11 +4,15 @@ import "./styles/normalize.css";
 import "./styles/style.css";
 import Loader from "./components/Loader/Loader";
 import App from "./App";
+import { BrowserRouter } from "react-router-dom";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <>
-    <Loader />
+  <BrowserRouter>
+  <Loader />
     <App />
+  </BrowserRouter>
+    
   </>
 );
