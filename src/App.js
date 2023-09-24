@@ -14,11 +14,14 @@ function App() {
         <div>
           <div className="sidebar container">
             <div className="sidebar-parts">{/* <img src="" alt="" /> */}</div>
+            <NavLink to="/">
             <div className="sidebar-parts">
               <img src={MainPhoto} alt="" />
 
               <h5>Asosiy</h5>
             </div>
+            </NavLink>
+            
 
             <NavLink to="/Mijozlar">
               <div className="sidebar-parts">
@@ -55,7 +58,7 @@ function App() {
         <div className="part2">
           <Routes>
             <Route path="/teachers" element={<Teachers />} />
-            {/* <Route path="/" element={<Dashboard/>}/> */}
+            <Route path="/" element={<Dashboard/>}/>
             <Route path="/Mijozlar" element={<Users />} />
             <Route path="Mahsulotlar" element={<Goods/>}/>
           </Routes>
