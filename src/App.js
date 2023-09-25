@@ -15,11 +15,11 @@ function App() {
           <div className="sidebar container">
             <div className="sidebar-parts">{/* <img src="" alt="" /> */}</div>
             <NavLink to="/">
-            <div className="sidebar-parts">
+            <div className="sidebar-parts ">
               
               <ul>
                 <li>
-                  <a href="" className="active">
+                  <a href="" className="activee active">
                   <img src={MainPhoto} alt="" />
                      <span>Asosiy</span></a>
                 </li>
@@ -34,7 +34,7 @@ function App() {
               <div className="sidebar-parts">
               <ul>
                 <li>
-                  <a href="" className="active">
+                  <a href="" className="activee">
                   <img src={MainPhoto} alt="" />
                      <span>Mijozlar</span></a>
                 </li>
@@ -45,7 +45,7 @@ function App() {
             <div className="sidebar-parts">
             <ul>
                 <li>
-                  <a href="" className="active">
+                  <a href="" className="activee">
                   <img src={MainPhoto} alt="" />
                      <span>Jihozlar</span></a>
                 </li>
@@ -56,7 +56,7 @@ function App() {
             <div className="sidebar-parts">
             <ul>
                 <li>
-                  <a href="" className="active">
+                  <a href="" className="activee">
                   <img src={MainPhoto} alt="" />
                      <span>Mahsulotlar</span></a>
                 </li>
@@ -66,10 +66,10 @@ function App() {
 
            
 
-            <div className="sidebar-parts">
+            <div className="sidebar-parts ">
             <ul>
                 <li>
-                  <a href="" className="active">
+                  <a href="" className="activee">
                   <img src={MainPhoto} alt="" />
                      <span>Ustozlar</span></a>
                 </li>
@@ -79,7 +79,7 @@ function App() {
             <div className="sidebar-parts">
             <ul>
                 <li>
-                  <a href="" className="active">
+                  <a href="" className="activee">
                   <img src={MainPhoto} alt="" />
                      <span>Savol javob</span></a>
                 </li>
@@ -91,7 +91,7 @@ function App() {
             <div className="sidebar-parts">
             <ul>
                 <li>
-                  <a href="" className="active">
+                  <a href="" className="activee">
                   <img src={MainPhoto} alt="" />
                      <span>Statistika</span></a>
                 </li>

@@ -23,13 +23,20 @@
 .sidebar-parts img {
   width: 30px;
   height: 30px;
+  
 }
 
-.active{
+.activee{
     text-align: center;
     align-items:center;
     display: flex;
-    gap: 10px;
-    width: 150px;
-    justify-content: space-between;
+    gap: 18px;
+    width: 160px;
+    
+}
+
+a.active{
+    background-color: #fff;
+    color: var(--gray1);
+    width: 250px;
 }
