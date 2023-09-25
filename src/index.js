@@ -14,6 +14,9 @@ root.render(
   <BrowserRouter>
   <Loader />
     <App />
+
+
+    
     
   </BrowserRouter>
     
