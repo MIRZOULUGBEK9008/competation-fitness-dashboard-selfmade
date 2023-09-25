@@ -14,7 +14,7 @@ root.render(
   <BrowserRouter>
   <Loader />
     <App />
-    <Dashboard/>
+    
   </BrowserRouter>
     
   </>
