@@ -15,13 +15,12 @@ function App() {
           <div className="sidebar container">
             <div className="sidebar-parts">{/* <img src="" alt="" /> */}</div>
             <NavLink to="/">
-            <div className="sidebar-parts">
-              <img src={MainPhoto} alt="" />
+              <div className="sidebar-parts">
+                <img src={MainPhoto} alt="" />
 
-              <h5>Asosiy</h5>
-            </div>
+                <h5>Asosiy</h5>
+              </div>
             </NavLink>
-            
 
             <NavLink to="/Mijozlar">
               <div className="sidebar-parts">
@@ -36,13 +35,11 @@ function App() {
             </div>
 
             <NavLink to="/Mahsulotlar">
-            <div className="sidebar-parts">
-              <img src={MainPhoto} alt="" />
-              <h5>Maxsulotlar</h5>
-            </div>
+              <div className="sidebar-parts">
+                <img src={MainPhoto} alt="" />
+                <h5>Maxsulotlar</h5>
+              </div>
             </NavLink>
-
-           
 
             <div className="sidebar-parts">
               <img src={MainPhoto} alt="" />
@@ -58,9 +55,9 @@ function App() {
         <div className="part2">
           <Routes>
             <Route path="/teachers" element={<Teachers />} />
-            <Route path="/" element={<Dashboard/>}/>
+            <Route path="/" element={<Dashboard />} />
             <Route path="/Mijozlar" element={<Users />} />
-            <Route path="Mahsulotlar" element={<Goods/>}/>
+            <Route path="/Mahsulotlar" element={<Goods />} />
           </Routes>
         </div>
       </div>
