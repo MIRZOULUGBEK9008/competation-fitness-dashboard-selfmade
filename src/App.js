@@ -25,7 +25,7 @@ function App() {
             <NavLink to="/Mijozlar">
               <div className="sidebar-parts">
                 <img src={MainPhoto} alt="" />
-                <h5>Mijozlar</h5>
+                <h2>Mijozlar</h2>
               </div>
             </NavLink>
 
