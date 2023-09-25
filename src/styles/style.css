@@ -206,3 +206,7 @@ a{
   color: white;
   text-decoration: none;
 }
+
+li{
+  list-style: none;
+}

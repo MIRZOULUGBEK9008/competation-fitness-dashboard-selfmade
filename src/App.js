@@ -16,41 +16,86 @@ function App() {
             <div className="sidebar-parts">{/* <img src="" alt="" /> */}</div>
             <NavLink to="/">
             <div className="sidebar-parts">
-              <img src={MainPhoto} alt="" />
+              
+              <ul>
+                <li>
+                  <a href="" className="active">
+                  <img src={MainPhoto} alt="" />
+                     <span>Asosiy</span></a>
+                </li>
+              </ul>
 
-              <h5>Asosiy</h5>
+              
             </div>
             </NavLink>
             
 
             <NavLink to="/Mijozlar">
               <div className="sidebar-parts">
-                <img src={MainPhoto} alt="" />
-                <h2>Mijozlar</h2>
+              <ul>
+                <li>
+                  <a href="" className="active">
+                  <img src={MainPhoto} alt="" />
+                     <span>Mijozlar</span></a>
+                </li>
+              </ul>
               </div>
             </NavLink>
 
             <div className="sidebar-parts">
-              <img src={MainPhoto} alt="" />
-              <h5>Jihozlar</h5>
+            <ul>
+                <li>
+                  <a href="" className="active">
+                  <img src={MainPhoto} alt="" />
+                     <span>Jihozlar</span></a>
+                </li>
+              </ul>
             </div>
 
             <NavLink to="/Mahsulotlar">
             <div className="sidebar-parts">
-              <img src={MainPhoto} alt="" />
-              <h5>Maxsulotlar</h5>
+            <ul>
+                <li>
+                  <a href="" className="active">
+                  <img src={MainPhoto} alt="" />
+                     <span>Mahsulotlar</span></a>
+                </li>
+              </ul>
             </div>
             </NavLink>
 
            
 
             <div className="sidebar-parts">
-              <img src={MainPhoto} alt="" />
-              <h5>Savol javob</h5>
+            <ul>
+                <li>
+                  <a href="" className="active">
+                  <img src={MainPhoto} alt="" />
+                     <span>Ustozlar</span></a>
+                </li>
+              </ul>
             </div>
+
             <div className="sidebar-parts">
-              <img src={MainPhoto} alt="" />
-              <h5>Statistika</h5>
+            <ul>
+                <li>
+                  <a href="" className="active">
+                  <img src={MainPhoto} alt="" />
+                     <span>Savol javob</span></a>
+                </li>
+              </ul>
+            </div>
+
+
+
+            <div className="sidebar-parts">
+            <ul>
+                <li>
+                  <a href="" className="active">
+                  <img src={MainPhoto} alt="" />
+                     <span>Statistika</span></a>
+                </li>
+              </ul>
             </div>
           </div>
         </div>
